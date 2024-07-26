@@ -16,7 +16,7 @@ function SinglePost() {
                 <span className='singlePostAuthor'>Author:<b>Aditya</b></span>
                 <span className='singlePostDate'>1 hour ago</span>
             </div>
-            <p className=''>
+            <p className='singlePostDescription'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. A pariatur, repudiandae voluptate impedit labore aut exercitationem accusamus? Autem dolores ex minus. Magni a cupiditate, esse fugiat non est consectetur nulla.
             </p>
         </div>

@@ -25,6 +25,27 @@
     margin-left: 10px;
     cursor: pointer;
  }
- .singlePostIcon :first-child{
-    
+ .singlePostIcon:first-child{
+    color: teal;
+
  }
+ .singlePostIcon:last-child{
+    color:tomato;
+}
+.singlePostInfo{
+    margin-bottom:20px;
+    display: flex;
+    justify-content:space-between;
+    font-size:16px;
+    color:#b39656
+}
+.singlePostDescription{
+     color: #666;
+     font-size: 18px;
+}
+.singlePostDescription::first-letter{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 30px;
+}
+

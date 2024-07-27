@@ -5,14 +5,22 @@ import Register from "./pages/register/Register";
 import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-   <TopBar/>
-   <Register/>
-   </>
-  )
+    <Router>
+      <TopBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/single" element={<Single />} />
+        <Route path="/write" element={<Write />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
